@@ -1,0 +1,15 @@
+# HTML 不缓存，内容更新即时生效
+/
+  Cache-Control: public, max-age=0, must-revalidate
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+# 样式短缓存
+/*.css
+  Cache-Control: public, max-age=3600, must-revalidate
+
+# 基础安全响应头
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
