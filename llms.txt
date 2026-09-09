@@ -1,70 +1,75 @@
 # Sensilchem
 
-> Longyan Shenghe Trading Co., Ltd — professional manufacturer and exporter of
-> precipitated silica, fumed silica and SILSEP® feed additives, operating under
-> the CENSIL® and Sensilchem® brands from Longyan, Fujian, China since 2009.
+> Sensilchem provides functional silica, specialty additives and silica-based adsorbent solutions for selected overseas customers across animal nutrition, food powders, oral care, agrochemical formulations, industrial water treatment, coatings, defoamers and plastic processing. Sensilchem supports material selection, sampling, application validation and reliable supply.
 
-Sensilchem supplies amorphous precipitated silica (powder, micropearl and
-granular), fumed silica (hydrophilic and hydrophobic), specialty silica grades
-for feed, battery separators and beer brewing, plus the SILSEP® integrated feed
-additive system for feed safety and animal health. Direct factory supply with
-OEM/ODM and custom synthesis; free samples available for evaluation.
+Sensilchem is a brand of Longyan Shenghe Trading Co., Ltd. (Longyan, Fujian, China), exporting functional silica and
+specialty additives since 2009 under the CENSIL(R), Sensilchem(R) and SILSEP(R) brands.
+
+Working method: start from the application problem, match a suitable material, drive adoption through
+testing. Process profiling precedes quoting; documentation and compliance boundaries are confirmed
+before shipment.
 
 ## Key facts
 
-- Legal entity: Longyan Shenghe Trading Co., Ltd (龙岩市晟合贸易有限公司)
-- Founded: 2009 · Base: Longyan City, Fujian, China
-- Brands: CENSIL® (silica), Sensilchem® (chemical solutions), SILSEP® (feed additives)
-- Certifications held: FAMI-QS, SGS, ISO 9001:2008, ISO 14001:2004
-- ICP filing: 闽ICP备19019250号-1
+- Legal entity: Longyan Shenghe Trading Co., Ltd.
+- Exporting since: 2009
+- Base: Longyan City, Fujian, China
+- Brands: CENSIL(R) silica, Sensilchem(R) chemical solutions, SILSEP(R) feed additives
+- Certifications: FAMI-QS, SGS verified, ISO 9001, ISO 14001
+- Typical first trial order: 200 kg - 1 tonne
 - Website: https://sensilchem.com
-- Alibaba store: https://www.alibaba.com/supplier/longyan-shenghe-trading.html
+- Sales contact: nina@sensilchem.com
+- ICP filing: 闽ICP备19019250号-1
 
-## Product range
+## Nine application tracks
 
-### Precipitated silica — rubber grade
-- Molecular formula SiO₂·nH₂O; supplied as powder, micropearl and granular
-- For tires, belts, seals, rubber and plastics reinforcement
-- Packing: 15 kg / 20 kg PP woven bag, 25 kg paper valve bag
+- Feed Additive Flow & Carrier (Premixes · Vitamin blends · Trace minerals · Liquid additive powdering) — grades: CENSIL 260P, CENSIL 265P, CENSIL 280P
+- Food Powder Flow (Seasonings · Powdered beverages · Soups · Dry blends) — grades: CENSIL 310, CENSIL 320, CENSIL 260P
+- Oral Care Silica (Toothpaste · Oral-care pastes · OEM / private-label filling) — grades: CENSIL 310, CENSIL 320, CENSIL 150
+- Agrochemical Carrier (WP / WG inert carrier · SC anti-caking and rheology) — grades: CENSIL 260P, CENSIL 265P, CENSIL 280P
+- Industrial Fluoride Removal (Fluoride-bearing industrial wastewater · Polishing after primary treatment) — grades: CENSIL 320, CENSIL 310, CENSIL 500
+- Coating Matting & Rheology (Wood coatings · Industrial · UV · Waterborne · Powder coatings) — grades: CENSIL 230W, CENSIL 525L, CENSIL 560N
+- Defoaming & System Stability (Defoamer compounding · Coatings · Paper · Textile · Construction chemicals) — grades: CENSIL 17, CENSIL 698, CENSIL 688
+- Plastic Film Antiblock (PE · PP · PET film · Blown · Cast · Biaxially oriented) — grades: CENSIL 773, CENSIL 779, CENSIL 185P
+- Functional Masterbatch Dispersion (Antiblock masterbatch · Functional masterbatch · Compounding) — grades: CENSIL 165GR, CENSIL 185GR, CENSIL 779
 
-### Precipitated silica — powder grade (feed, anti-caking, carrier)
-- Grades: CENSIL 260PA, 260PB, 260PC, 270P, 280P, 38A, 1000P
-- SiO₂ (dry basis) ≥ 98%; heating loss (105 °C, 1.5 h) ≤ 6.5%
-- Ignition loss (1000 °C, dry basis) ≤ 7.0%; pH (5% suspension) 6.0–7.0
-- BET surface area 160–195 m²/g (CENSIL 38A: 195–250 m²/g)
+## CENSIL grade index
 
-### Precipitated silica — micropearl grade
-- Good fluidity, high porosity, strong absorbability; anti-caking agent
-- Packing: 15 kg / 20 kg PP woven bag, 300–790 kg jumbo bag
+- CENSIL 260P — Precipitated silica powder. Base carrier with a lower absorption gradient — the starting point for liquid loading, flow aid and anti-caking work. Typical: BET surface area 160 – 195 m²/g · Oil absorption (DBP) 2.55 – 2.65 cm³/g.
+- CENSIL 265P — Precipitated silica powder. Balanced absorption and flow — the middle route when a base carrier is not quite enough. Typical: BET surface area 160 – 195 m²/g · Oil absorption (DBP) 2.65 – 2.75 cm³/g.
+- CENSIL 280P — Precipitated silica powder. High-absorption, high-loading candidate for demanding liquid-to-powder conversion. Typical: BET surface area 160 – 195 m²/g · Oil absorption (DBP) ≥ 2.75 cm³/g.
+- CENSIL 310 — Porous silica-based material. Food, brewing, toothpaste and flavour stabilisation route with a moderate surface area and pore structure. Typical: BET surface area 100 – 200 m²/g · Pore volume 0.9 – 1.3 mL/g.
+- CENSIL 320 — Porous silica-based material. Higher surface area candidate for food and oral care; also the preferred base material for fluoride-removal functionalisation screening. Typical: BET surface area 300 – 580 m²/g · Oil absorption (DBP) 100 – 280 cm³/100 g.
+- CENSIL 150 — High-purity fine silica powder. Fine-powder candidate route for oral-care paste structure and appearance work. Typical: Type High-purity fine silica powder · Data On request.
+- CENSIL 500 — High pore-volume silica. Coating matting grade; used on the fluoride track as a high pore-volume comparison substrate. Typical: BET surface area 260 – 280 m²/g · Pore volume 1.6 – 1.8 mL/g.
+- CENSIL 230W — Precipitated matting silica, specially treated. Waterborne compatibility and refined surfaces — matting and dispersion in balance. Typical: Particle size D50 3.8 – 4.3 µm · Surface treatment Special treatment.
+- CENSIL 525L — Precipitated matting silica, organically treated. Resin compatibility, dispersibility and general-purpose matting for wood, industrial, UV, plastic and leather coatings. Typical: Particle size D50 5.0 – 6.0 µm · Surface treatment Organic.
+- CENSIL 560N — Precipitated matting silica, untreated. Matting, rheology, anti-settling and cost balance for industrial, coil, powder and general systems. Typical: Particle size D50 5.5 – 6.0 µm · Surface treatment Untreated.
+- CENSIL 17 — Hydrophobic silica. Hydrophobic, anti-caking route for oil-based defoamer systems. Typical: BET surface area ≈ 160 m²/g · Character Hydrophobic.
+- CENSIL 698 — High-absorption silica powder. High-absorption candidate for liquid powdering in defoamer systems. Typical: BET surface area 145 – 185 m²/g · Oil absorption (DBP) 230 – 280 mL/100 g.
+- CENSIL 688 — High-absorption silica powder. High-absorption route for liquid powdering and powder-system work. Typical: BET surface area 140 – 185 m²/g · Oil absorption (DBP) 230 – 280 mL/100 g.
+- CENSIL 773 — Low-iron, high-purity precipitated silica. Antiblock and masterbatch candidate where film optics matter. Typical: BET surface area 160 – 210 m²/g · Particle size D50 8 – 10 µm.
+- CENSIL 779 — Low-iron, high-purity precipitated silica. Antiblock and masterbatch route for tighter downstream appearance requirements. Typical: BET surface area 160 – 180 m²/g · Particle size D50 8 – 10 µm.
+- CENSIL 185P — Precipitated silica powder. Conventional precipitated comparison route for film antiblock. Typical: BET surface area 175 – 195 m²/g · Form Powder.
+- CENSIL 165GR — Granular precipitated silica. Granular feeding and dispersion route for masterbatch production. Typical: BET surface area 155 – 175 m²/g · Form Granular.
+- CENSIL 185GR — Granular precipitated silica. Granular feeding and dispersion route with a higher surface-area position. Typical: BET surface area 175 – 195 m²/g · Form Granular.
 
-### Fumed silica
-- White colloidal micro-particle, primary particle size 5–40 nm
-- Thixotropy, reinforcing, thickening and filling
-- Hydrophilic and surface-treated hydrophobic types
-- For coatings, adhesives and sealants
+## Data policy
 
-### Specialty silica
-- Battery separator grade — porous structure for PE separators
-- CENSIL 320 — silica gel for beer brewing, removes haze-forming proteins
-- Matting agent grade — flatting agent for matte and satin finishes
+Typical values for orientation only, not a specification. The current supplier technical data sheet governs for quotation, COA and customer testing — request it for the grade you are evaluating. Full technical data sheets, specification sheets, COA and SDS are issued per enquiry at
+nina@sensilchem.com.
 
-### SILSEP® feed additives
-- Mold Guard — binds mycotoxins (aflatoxins, DON) and inhibits mold growth
-- Immunity — immune activation plus probiotic barrier and microbiome support
-- Intestinal Health — probiotics, prebiotics, organic acids, functional peptides
-- Digestive — enzymes, bile acids and probiotics for aquatic digestion
+## Scope notes
 
-## Contact
+- Agrochemical track: inert carrier material for physical formulation performance only. Sensilchem takes
+  no position on active ingredients, efficacy or product registration.
+- Industrial fluoride removal: CENSIL 320 / 310 / 500 are silica-based carrier candidates for
+  functionalisation screening, not validated fluoride-removal products. No removal performance is claimed
+  before customer water-sample bench tests and dynamic column results.
 
-- Director: Mr. John Jiang (Jingchun Jiang) — Tel / WhatsApp +86 186-0597-1038
-- Sales: Ms. Nina Zhang — nina@sensilchem.com — +86 597-2200392
-- General: admin@sensilchem.com — Tel/Fax +86 597-2200392
-- Address: No. 2103, Youth Venture Building J, No. 53 Hualian Rd.,
-  Xipi Street, Xinluo District, Longyan City, Fujian, China 364000
+## Group brands
 
-## Related brands in the group
-
-- Censilcoat (https://censilcoat.com) — waterborne silica matting agents for coatings
-- Censil Silica (https://censilsilica.com) · Vista Silica (https://vistasilica.com)
-- Vista Matt (https://vistamatt.com) · Vista Emulsion (https://vistaemulsion.com)
-- SilFeed (https://silfeed.com) · Silsep (https://silsep.com)
+- Censil Silica (https://censilsilica.com)
+- Censil Coat (https://censilcoat.com)
+- Vista Matt (https://vistamatt.com)
+- SilFeed (https://silfeed.com)

@@ -1,7 +1,6 @@
 User-agent: *
 Allow: /
 
-# AI retrieval / training crawlers (explicit allow)
 User-agent: GPTBot
 Allow: /
 
@@ -9,9 +8,6 @@ User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
-Allow: /
-
-User-agent: Google-Extended
 Allow: /
 
 User-agent: ClaudeBot
@@ -32,13 +28,33 @@ Allow: /
 User-agent: Perplexity-User
 Allow: /
 
-User-agent: CCBot
+User-agent: Google-Extended
 Allow: /
 
 User-agent: Applebot-Extended
 Allow: /
 
-# Standard search engines
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: Timpibot
+Allow: /
+
 User-agent: Googlebot
 Allow: /
 
