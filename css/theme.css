@@ -388,6 +388,39 @@ html, body { overflow-x: clip; max-width: 100%; }
 .greq__row--intro .btn { flex: none; margin-top: .2rem; }
 .note__tm { margin: .8rem 0 0; font-size: .78rem; color: var(--ink-3); }
 
+/* ---------- WhatsApp floating button ---------- */
+.wa { position: fixed; right: 18px; bottom: 18px; z-index: 150; display: flex; align-items: center; gap: .5rem;
+  background: #25D366; color: #fff; text-decoration: none; font-weight: 600; font-size: .86rem;
+  padding: .6rem .95rem .6rem .7rem; border-radius: 100px; box-shadow: 0 6px 18px rgba(0,0,0,.18); }
+.wa svg { width: 24px; height: 24px; flex: none; }
+.wa:hover { background: #1ebe5b; }
+@media (max-width: 560px) { .wa span { display: none; } .wa { padding: .7rem; } }
+@media print { .wa { display: none; } }
+
+/* ---------- MOQ / trial strip ---------- */
+.moq { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.1rem; }
+.moq__item { background: #fff; border: 1px solid var(--line); border-radius: var(--r-lg); padding: 1.2rem 1.25rem; }
+.moq__item b { display: block; font-family: var(--font-display); color: var(--brand); font-size: 1rem; margin-bottom: .45rem; }
+.moq__item p { margin: 0; font-size: .89rem; line-height: 1.65; color: var(--ink-2); }
+@media (max-width: 980px) { .moq { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 560px) { .moq { grid-template-columns: 1fr; } }
+
+/* ---------- Enquiry form ---------- */
+.enq { display: flex; flex-direction: column; gap: 1rem; margin-top: 1.2rem; }
+.enq label { display: flex; flex-direction: column; gap: .35rem; font-size: .86rem; font-weight: 600; color: var(--ink); }
+.enq label > span { color: var(--brand); font-weight: 700; }
+.enq input, .enq select, .enq textarea { font: inherit; font-weight: 400; font-size: .95rem; color: var(--ink);
+  padding: .65rem .8rem; border: 1px solid var(--line); border-radius: var(--r); background: #fff; width: 100%; }
+.enq input:focus, .enq select:focus, .enq textarea:focus { outline: 2px solid var(--brand); outline-offset: 1px; border-color: var(--brand); }
+.enq__grid { display: grid; grid-template-columns: 1fr 1fr; gap: .9rem 1.1rem; }
+.enq__check { flex-direction: row !important; align-items: flex-start; gap: .6rem !important; font-weight: 400 !important; font-size: .84rem !important; color: var(--ink-2) !important; line-height: 1.55; }
+.enq__check input { width: 1.05rem; height: 1.05rem; margin-top: .15rem; flex: none; }
+.enq__check a { color: var(--brand); }
+.enq__hp { position: absolute; left: -9999px; }
+.enq button { align-self: flex-start; }
+@media (max-width: 640px) { .enq__grid { grid-template-columns: 1fr; } }
+a.card { text-decoration: none; color: inherit; }
+
 /* ---------- Hero side panel (stands in for the plant photo) ---------- */
 .hero__side { }
 .heropanel { background: #fff; border: 1px solid var(--line); border-radius: var(--r-lg); padding: 1.5rem 1.4rem; }
