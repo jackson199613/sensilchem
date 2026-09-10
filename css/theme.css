@@ -421,6 +421,30 @@ html, body { overflow-x: clip; max-width: 100%; }
 @media (max-width: 640px) { .enq__grid { grid-template-columns: 1fr; } }
 a.card { text-decoration: none; color: inherit; }
 
+/* ---------- Grade selector ---------- */
+.sel { display: flex; flex-direction: column; gap: 2rem; }
+.sel__step h2 { font-size: 1.2rem; display: flex; align-items: center; gap: .7rem; margin-bottom: 1rem; }
+.sel__step h2 span { display: inline-flex; width: 1.7rem; height: 1.7rem; border-radius: 50%; background: var(--brand); color: #fff; font-size: .85rem; align-items: center; justify-content: center; font-family: var(--font-body); }
+.sel__opts { display: grid; grid-template-columns: repeat(3, 1fr); gap: .8rem; }
+.sel__opt { text-align: left; background: #fff; border: 1px solid var(--line); border-radius: var(--r-lg); padding: .95rem 1.05rem; cursor: pointer; font: inherit; color: var(--ink); display: flex; flex-direction: column; gap: .2rem; transition: border-color .15s, box-shadow .15s; }
+.sel__opt:hover { border-color: var(--brand); }
+.sel__opt.is-on { border-color: var(--brand); box-shadow: 0 0 0 2px var(--brand) inset; }
+.sel__opt b { font-size: .72rem; letter-spacing: .1em; color: var(--brass); }
+.sel__opt span { font-family: var(--font-display); font-weight: 600; font-size: 1rem; }
+.sel__opt small { font-size: .8rem; color: var(--ink-3); line-height: 1.45; }
+.sel__opt--q span { font-family: var(--font-body); font-weight: 500; font-size: .95rem; }
+.sel__card { background: #fff; border: 1px solid var(--line); border-top: 3px solid var(--brand); border-radius: var(--r-lg); padding: 1.6rem 1.7rem; }
+.sel__card h3 { font-size: 1.6rem; margin: .2rem 0 .6rem; }
+.sel__card p { color: var(--ink-2); max-width: 70ch; }
+.sel__also { font-size: .88rem; }
+.sel__also span { color: var(--ink); font-weight: 600; }
+.sel__act { display: flex; gap: .7rem; flex-wrap: wrap; margin-top: 1.1rem; }
+.sel__note { margin: .9rem 0 0; font-size: .86rem; color: var(--ink-3); }
+.seltable td.g span { display: block; font-size: .78rem; color: var(--ink-3); font-weight: 400; margin-top: .25rem; }
+.seltable td.act { text-align: right; white-space: nowrap; }
+@media (max-width: 900px) { .sel__opts { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 560px) { .sel__opts { grid-template-columns: 1fr; } }
+
 /* ---------- Hero side panel (stands in for the plant photo) ---------- */
 .hero__side { }
 .heropanel { background: #fff; border: 1px solid var(--line); border-radius: var(--r-lg); padding: 1.5rem 1.4rem; }
