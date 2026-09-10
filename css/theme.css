@@ -301,12 +301,19 @@ html, body { overflow-x: clip; max-width: 100%; }
 
 /* ---------- Home: six family introduction cards ---------- */
 .fam { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
-.fam__card { background: #fff; border: 1px solid var(--line); border-top: 3px solid var(--brand);
-  border-radius: var(--r-lg); padding: 1.4rem 1.35rem; }
-.fam__card h3 { font-size: 1.05rem; margin-bottom: .4rem; }
+.fam__card { display: flex; flex-direction: column; background: #fff; border: 1px solid var(--line);
+  border-radius: var(--r-lg); overflow: hidden; color: inherit; text-decoration: none;
+  transition: box-shadow .25s, transform .25s; }
+.fam__card:hover { box-shadow: 0 10px 28px rgba(27,29,28,.08); transform: translateY(-2px); }
+.fam__img { display: block; aspect-ratio: 16/9; background: var(--surface-2); overflow: hidden; }
+.fam__img img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .4s; }
+.fam__card:hover .fam__img img { transform: scale(1.04); }
+.fam__body { padding: 1.15rem 1.3rem 1.3rem; border-top: 3px solid var(--brand); display: flex; flex-direction: column; flex: 1; }
+.fam__card h3 { font-size: 1.05rem; margin-bottom: .35rem; }
 .fam__grades { display: block; font-size: .78rem; letter-spacing: .04em; color: var(--brass);
-  font-weight: 600; margin-bottom: .7rem; }
+  font-weight: 600; margin-bottom: .65rem; }
 .fam__card p { margin: 0; font-size: .9rem; line-height: 1.68; color: var(--ink-2); }
+.fam__go { margin-top: auto; padding-top: .9rem; font-size: .84rem; font-weight: 600; color: var(--brand); }
 @media (max-width: 980px) { .fam { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 620px) { .fam { grid-template-columns: 1fr; } }
 
