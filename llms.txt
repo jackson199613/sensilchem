@@ -54,6 +54,36 @@ before shipment.
 - CENSIL 165GR — Granular precipitated silica. Granular feeding and dispersion route for masterbatch production.
 - CENSIL 185GR — Granular precipitated silica. Granular feeding and dispersion route with a higher surface-area position.
 
+## Grade pages (one page per grade)
+
+- CENSIL 260P: https://sensilchem.com/grades/censil-260p.html
+- CENSIL 265P: https://sensilchem.com/grades/censil-265p.html
+- CENSIL 280P: https://sensilchem.com/grades/censil-280p.html
+- CENSIL 310: https://sensilchem.com/grades/censil-310.html
+- CENSIL 320: https://sensilchem.com/grades/censil-320.html
+- CENSIL 150: https://sensilchem.com/grades/censil-150.html
+- CENSIL 500: https://sensilchem.com/grades/censil-500.html
+- CENSIL 230W: https://sensilchem.com/grades/censil-230w.html
+- CENSIL 525L: https://sensilchem.com/grades/censil-525l.html
+- CENSIL 560N: https://sensilchem.com/grades/censil-560n.html
+- CENSIL 17: https://sensilchem.com/grades/censil-17.html
+- CENSIL 698: https://sensilchem.com/grades/censil-698.html
+- CENSIL 688: https://sensilchem.com/grades/censil-688.html
+- CENSIL 773: https://sensilchem.com/grades/censil-773.html
+- CENSIL 779: https://sensilchem.com/grades/censil-779.html
+- CENSIL 185P: https://sensilchem.com/grades/censil-185p.html
+- CENSIL 165GR: https://sensilchem.com/grades/censil-165gr.html
+- CENSIL 185GR: https://sensilchem.com/grades/censil-185gr.html
+
+
+## Other pages
+
+- FAQ (24 questions on grade choice, documents, samples, MOQ, trials): https://sensilchem.com/faq.html
+- Grade selector (application x situation -> starting grade): https://sensilchem.com/selector.html
+- Quality and documentation: https://sensilchem.com/quality.html
+- Contact and enquiry form: https://sensilchem.com/contact.html
+- Privacy notice: https://sensilchem.com/privacy.html
+
 ## Data policy
 
 Sensilchem does not publish specification tables. Technical data sheets, specification sheets, COA and

@@ -445,6 +445,29 @@ a.card { text-decoration: none; color: inherit; }
 @media (max-width: 900px) { .sel__opts { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 560px) { .sel__opts { grid-template-columns: 1fr; } }
 
+/* ---------- FAQ ---------- */
+.faq { display: flex; flex-direction: column; gap: 2.4rem; }
+.faq__group h2 { font-size: 1.3rem; margin-bottom: .9rem; padding-bottom: .5rem; border-bottom: 2px solid var(--brand); display: inline-block; }
+.faq__item { background: #fff; border: 1px solid var(--line); border-radius: var(--r-lg); margin-bottom: .6rem; }
+.faq__item summary { list-style: none; cursor: pointer; padding: 1rem 3rem 1rem 1.2rem; position: relative; }
+.faq__item summary::-webkit-details-marker { display: none; }
+.faq__item summary h3 { font-size: 1.02rem; margin: 0; font-weight: 600; }
+.faq__item summary::after { content: "+"; position: absolute; right: 1.1rem; top: .75rem; font-size: 1.5rem; color: var(--brand); font-weight: 300; }
+.faq__item[open] summary::after { content: "–"; }
+.faq__item[open] summary { border-bottom: 1px solid var(--line-soft); }
+.faq__a { padding: .9rem 1.2rem 1.2rem; }
+.faq__a p { margin: 0; color: var(--ink-2); line-height: 1.7; max-width: 78ch; }
+.faq__a a { color: var(--brand); }
+.faq__group { scroll-margin-top: calc(var(--head-h) + 20px); }
+.faq__item { scroll-margin-top: calc(var(--head-h) + 20px); }
+
+/* ---------- Answer block + grade pages ---------- */
+.answer { margin-top: 1rem; padding: 1rem 1.2rem; background: #fff; border-left: 3px solid var(--brand); border-radius: 0 var(--r) var(--r) 0; max-width: 80ch; font-size: .97rem; line-height: 1.7; color: var(--ink-2); }
+.answer strong { color: var(--ink); }
+.phead h1 small { display: block; font-family: var(--font-body); font-size: .95rem; font-weight: 500; color: var(--ink-3); letter-spacing: .02em; margin-top: .4rem; }
+.grade__head h3 a, .greq__row b a { color: inherit; text-decoration: none; }
+.grade__head h3 a:hover, .greq__row b a:hover { color: var(--brand); }
+
 /* ---------- Hero side panel (stands in for the plant photo) ---------- */
 .hero__side { }
 .heropanel { background: #fff; border: 1px solid var(--line); border-radius: var(--r-lg); padding: 1.5rem 1.4rem; }
