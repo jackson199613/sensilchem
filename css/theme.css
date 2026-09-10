@@ -427,3 +427,7 @@ figure picture { display: block; }
 .form__body h3 { font-size: 1.02rem; margin-bottom: .45rem; }
 .form__body p { margin: 0; font-size: .89rem; line-height: 1.65; color: var(--ink-2); }
 @media (max-width: 860px) { .forms { grid-template-columns: 1fr; } }
+
+/* ---------- Hero media ---------- */
+.hero__media { aspect-ratio: 3/2; background: var(--surface-2); }
+.hero__media picture, .hero__media img, .hero__media video { display: block; width: 100%; height: 100%; object-fit: cover; }
