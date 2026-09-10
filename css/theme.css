@@ -288,15 +288,6 @@ figcaption { font-size: .82rem; color: var(--ink-3); margin-top: .55rem; line-he
 .tablewrap { max-width: 100%; }
 html, body { overflow-x: clip; max-width: 100%; }
 
-/* ---------- Typical-value cells ---------- */
-td.kd { min-width: 190px; }
-.kv { display: flex; flex-direction: column; margin-bottom: .35rem; }
-.kv:last-child { margin-bottom: 0; }
-.kv span { font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); line-height: 1.4; }
-.kv b { font-family: var(--font-display); font-size: .86rem; color: var(--ink); font-weight: 600; }
-.greq__row span { font-size: .8rem; color: var(--ink-2); }
-table.idx { min-width: 900px; }
-
 /* ---------- Hero side panel (stands in for the plant photo) ---------- */
 .hero__side { }
 .heropanel { background: #fff; border: 1px solid var(--line); border-radius: var(--r-lg); padding: 1.5rem 1.4rem; }
@@ -347,3 +338,13 @@ table.idx { min-width: 900px; }
 .app__img img { object-fit: cover; transition: transform .4s; }
 figure picture img { width: 100%; height: auto; border-radius: var(--r-lg); border: 1px solid var(--line); }
 figure picture { display: block; }
+
+/* ---------- Product form strip ---------- */
+.forms { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+.form { background: #fff; border: 1px solid var(--line); border-radius: var(--r-lg); overflow: hidden; }
+.form picture { display: block; aspect-ratio: 3/2; background: var(--surface-2); }
+.form img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.form__body { padding: 1.1rem 1.2rem 1.3rem; }
+.form__body h3 { font-size: 1.02rem; margin-bottom: .45rem; }
+.form__body p { margin: 0; font-size: .89rem; line-height: 1.65; color: var(--ink-2); }
+@media (max-width: 860px) { .forms { grid-template-columns: 1fr; } }

@@ -35,29 +35,30 @@ before shipment.
 
 ## CENSIL grade index
 
-- CENSIL 260P — Precipitated silica powder. Base carrier with a lower absorption gradient — the starting point for liquid loading, flow aid and anti-caking work. Typical: BET surface area 160 – 195 m²/g · Oil absorption (DBP) 2.55 – 2.65 cm³/g.
-- CENSIL 265P — Precipitated silica powder. Balanced absorption and flow — the middle route when a base carrier is not quite enough. Typical: BET surface area 160 – 195 m²/g · Oil absorption (DBP) 2.65 – 2.75 cm³/g.
-- CENSIL 280P — Precipitated silica powder. High-absorption, high-loading candidate for demanding liquid-to-powder conversion. Typical: BET surface area 160 – 195 m²/g · Oil absorption (DBP) ≥ 2.75 cm³/g.
-- CENSIL 310 — Porous silica-based material. Food, brewing, toothpaste and flavour stabilisation route with a moderate surface area and pore structure. Typical: BET surface area 100 – 200 m²/g · Pore volume 0.9 – 1.3 mL/g.
-- CENSIL 320 — Porous silica-based material. Higher surface area candidate for food and oral care; also the preferred base material for fluoride-removal functionalisation screening. Typical: BET surface area 300 – 580 m²/g · Oil absorption (DBP) 100 – 280 cm³/100 g.
-- CENSIL 150 — High-purity fine silica powder. Fine-powder candidate route for oral-care paste structure and appearance work. Typical: Type High-purity fine silica powder · Data On request.
-- CENSIL 500 — High pore-volume silica. Coating matting grade; used on the fluoride track as a high pore-volume comparison substrate. Typical: BET surface area 260 – 280 m²/g · Pore volume 1.6 – 1.8 mL/g.
-- CENSIL 230W — Precipitated matting silica, specially treated. Waterborne compatibility and refined surfaces — matting and dispersion in balance. Typical: Particle size D50 3.8 – 4.3 µm · Surface treatment Special treatment.
-- CENSIL 525L — Precipitated matting silica, organically treated. Resin compatibility, dispersibility and general-purpose matting for wood, industrial, UV, plastic and leather coatings. Typical: Particle size D50 5.0 – 6.0 µm · Surface treatment Organic.
-- CENSIL 560N — Precipitated matting silica, untreated. Matting, rheology, anti-settling and cost balance for industrial, coil, powder and general systems. Typical: Particle size D50 5.5 – 6.0 µm · Surface treatment Untreated.
-- CENSIL 17 — Hydrophobic silica. Hydrophobic, anti-caking route for oil-based defoamer systems. Typical: BET surface area ≈ 160 m²/g · Character Hydrophobic.
-- CENSIL 698 — High-absorption silica powder. High-absorption candidate for liquid powdering in defoamer systems. Typical: BET surface area 145 – 185 m²/g · Oil absorption (DBP) 230 – 280 mL/100 g.
-- CENSIL 688 — High-absorption silica powder. High-absorption route for liquid powdering and powder-system work. Typical: BET surface area 140 – 185 m²/g · Oil absorption (DBP) 230 – 280 mL/100 g.
-- CENSIL 773 — Low-iron, high-purity precipitated silica. Antiblock and masterbatch candidate where film optics matter. Typical: BET surface area 160 – 210 m²/g · Particle size D50 8 – 10 µm.
-- CENSIL 779 — Low-iron, high-purity precipitated silica. Antiblock and masterbatch route for tighter downstream appearance requirements. Typical: BET surface area 160 – 180 m²/g · Particle size D50 8 – 10 µm.
-- CENSIL 185P — Precipitated silica powder. Conventional precipitated comparison route for film antiblock. Typical: BET surface area 175 – 195 m²/g · Form Powder.
-- CENSIL 165GR — Granular precipitated silica. Granular feeding and dispersion route for masterbatch production. Typical: BET surface area 155 – 175 m²/g · Form Granular.
-- CENSIL 185GR — Granular precipitated silica. Granular feeding and dispersion route with a higher surface-area position. Typical: BET surface area 175 – 195 m²/g · Form Granular.
+- CENSIL 260P — Precipitated silica powder. Base carrier with a lower absorption gradient — the starting point for liquid loading, flow aid and anti-caking work.
+- CENSIL 265P — Precipitated silica powder. Balanced absorption and flow — the middle route when a base carrier is not quite enough.
+- CENSIL 280P — Precipitated silica powder. High-absorption, high-loading candidate for demanding liquid-to-powder conversion.
+- CENSIL 310 — Porous silica-based material. Food, brewing, toothpaste and flavour stabilisation route with a moderate surface area and pore structure.
+- CENSIL 320 — Porous silica-based material. Higher surface area candidate for food and oral care; also the preferred base material for fluoride-removal functionalisation screening.
+- CENSIL 150 — High-purity fine silica powder. Fine-powder candidate route for oral-care paste structure and appearance work.
+- CENSIL 500 — High pore-volume silica. Coating matting grade; used on the fluoride track as a high pore-volume comparison substrate.
+- CENSIL 230W — Precipitated matting silica, specially treated. Waterborne compatibility and refined surfaces — matting and dispersion in balance.
+- CENSIL 525L — Precipitated matting silica, organically treated. Resin compatibility, dispersibility and general-purpose matting for wood, industrial, UV, plastic and leather coatings.
+- CENSIL 560N — Precipitated matting silica, untreated. Matting, rheology, anti-settling and cost balance for industrial, coil, powder and general systems.
+- CENSIL 17 — Hydrophobic silica. Hydrophobic, anti-caking route for oil-based defoamer systems.
+- CENSIL 698 — High-absorption silica powder. High-absorption candidate for liquid powdering in defoamer systems.
+- CENSIL 688 — High-absorption silica powder. High-absorption route for liquid powdering and powder-system work.
+- CENSIL 773 — Low-iron, high-purity precipitated silica. Antiblock and masterbatch candidate where film optics matter.
+- CENSIL 779 — Low-iron, high-purity precipitated silica. Antiblock and masterbatch route for tighter downstream appearance requirements.
+- CENSIL 185P — Precipitated silica powder. Conventional precipitated comparison route for film antiblock.
+- CENSIL 165GR — Granular precipitated silica. Granular feeding and dispersion route for masterbatch production.
+- CENSIL 185GR — Granular precipitated silica. Granular feeding and dispersion route with a higher surface-area position.
 
 ## Data policy
 
-Typical values for orientation only, not a specification. The current supplier technical data sheet governs for quotation, COA and customer testing — request it for the grade you are evaluating. Full technical data sheets, specification sheets, COA and SDS are issued per enquiry at
-nina@sensilchem.com.
+Sensilchem does not publish specification tables. Technical data sheets, specification sheets, COA and
+SDS are issued per enquiry so that figures reflect the current supplier revision and are matched to the
+customer's application. Request them at nina@sensilchem.com.
 
 ## Scope notes
 
