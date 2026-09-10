@@ -381,6 +381,13 @@ html, body { overflow-x: clip; max-width: 100%; }
   padding: .32rem .75rem; border: 1px solid var(--line); border-radius: 100px; background: #fff; }
 .fxrow a:hover { border-color: var(--brand); color: var(--brand); }
 
+/* ---------- App card grade chips / grade intro rows / TM note ---------- */
+.app__grades { display: block; font-size: .76rem; letter-spacing: .03em; color: var(--brass); font-weight: 600; margin: .55rem 0 .7rem; }
+.greq__row--intro { align-items: flex-start; }
+.greq__row--intro p { margin: .3rem 0 .45rem; font-size: .88rem; line-height: 1.6; color: var(--ink-2); }
+.greq__row--intro .btn { flex: none; margin-top: .2rem; }
+.note__tm { margin: .8rem 0 0; font-size: .78rem; color: var(--ink-3); }
+
 /* ---------- Hero side panel (stands in for the plant photo) ---------- */
 .hero__side { }
 .heropanel { background: #fff; border: 1px solid var(--line); border-radius: var(--r-lg); padding: 1.5rem 1.4rem; }
