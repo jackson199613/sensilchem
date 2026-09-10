@@ -185,6 +185,21 @@
     </div>
   </div>
 </footer>
+<div class="mailfb" id="mailfb" hidden>
+  <div class="mailfb__box" role="dialog" aria-modal="true" aria-labelledby="mailfb-t">
+    <button class="mailfb__x" type="button" aria-label="Close">&times;</button>
+    <h3 id="mailfb-t">Send this request by email</h3>
+    <p class="mailfb__hint">Your browser did not open an email app. Use one of the options below, or copy the details into any mail client.</p>
+    <div class="mailfb__row"><span>To</span><code id="mailfb-to"></code><button type="button" class="mailfb__copy" data-copy="mailfb-to">Copy</button></div>
+    <div class="mailfb__row"><span>Subject</span><code id="mailfb-su"></code><button type="button" class="mailfb__copy" data-copy="mailfb-su">Copy</button></div>
+    <div class="mailfb__row mailfb__row--body"><span>Message</span><pre id="mailfb-body"></pre><button type="button" class="mailfb__copy" data-copy="mailfb-body">Copy</button></div>
+    <div class="mailfb__act">
+      <a class="btn btn--primary btn--sm" id="mailfb-gmail" target="_blank" rel="noopener">Open in Gmail</a>
+      <a class="btn btn--outline btn--sm" id="mailfb-outlook" target="_blank" rel="noopener">Open in Outlook</a>
+      <a class="btn btn--outline btn--sm" id="mailfb-retry">Try email app again</a>
+    </div>
+  </div>
+</div>
 <script>
 (function(){
  var b=document.querySelector('.burger'),n=document.querySelector('.mainnav');
@@ -194,6 +209,47 @@
    li.querySelector('a').addEventListener('click',function(e){
      if(window.matchMedia('(max-width:1040px)').matches){e.preventDefault();li.classList.toggle('open');}
    });
+ });
+
+ /* ---- mailto fallback: if no mail app opens within ~1s, show a dialog ---- */
+ var fb=document.getElementById('mailfb'); if(!fb) return;
+ function parse(href){
+   var m=href.replace(/^mailto:/,''), i=m.indexOf('?'), to=i<0?m:m.slice(0,i), q={};
+   if(i>=0) m.slice(i+1).split('&').forEach(function(kv){var p=kv.split('='); q[p[0]]=decodeURIComponent((p[1]||'').replace(/\+/g,' '));});
+   return {to:decodeURIComponent(to), su:q.subject||'', body:q.body||''};
+ }
+ function show(href){
+   var d=parse(href), e=encodeURIComponent;
+   document.getElementById('mailfb-to').textContent=d.to;
+   document.getElementById('mailfb-su').textContent=d.su;
+   document.getElementById('mailfb-body').textContent=d.body;
+   document.getElementById('mailfb-gmail').href='https://mail.google.com/mail/?view=cm&fs=1&to='+e(d.to)+'&su='+e(d.su)+'&body='+e(d.body);
+   document.getElementById('mailfb-outlook').href='https://outlook.office.com/mail/deeplink/compose?to='+e(d.to)+'&subject='+e(d.su)+'&body='+e(d.body);
+   document.getElementById('mailfb-retry').href=href;
+   fb.hidden=false; document.body.style.overflow='hidden';
+ }
+ function hide(){ fb.hidden=true; document.body.style.overflow=''; }
+ fb.querySelector('.mailfb__x').addEventListener('click',hide);
+ fb.addEventListener('click',function(e){ if(e.target===fb) hide(); });
+ document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&!fb.hidden) hide(); });
+ fb.querySelectorAll('.mailfb__copy').forEach(function(btn){
+   btn.addEventListener('click',function(){
+     var t=document.getElementById(btn.getAttribute('data-copy')).textContent;
+     (navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){
+       btn.textContent='Copied'; setTimeout(function(){btn.textContent='Copy';},1400);
+     },function(){ window.prompt('Copy:', t); });
+   });
+ });
+ document.addEventListener('click',function(e){
+   var a=e.target.closest('a[href^="mailto:"]'); if(!a||a.id==='mailfb-retry') return;
+   var href=a.getAttribute('href'), left=false;
+   var onLeave=function(){ left=true; };
+   window.addEventListener('blur',onLeave,{once:true});
+   document.addEventListener('visibilitychange',onLeave,{once:true});
+   setTimeout(function(){
+     window.removeEventListener('blur',onLeave); document.removeEventListener('visibilitychange',onLeave);
+     if(!left && document.visibilityState==='visible') show(href);
+   },1000);
  });
 })();
 </script>

@@ -342,6 +342,31 @@ html, body { overflow-x: clip; max-width: 100%; }
 @media (max-width: 1000px) { .grades { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 640px) { .grades { grid-template-columns: 1fr; } .grade .btn { width: 100%; } }
 
+/* ---------- mailto fallback dialog ---------- */
+.mailfb { position: fixed; inset: 0; z-index: 200; background: rgba(27,29,28,.55);
+  display: flex; align-items: center; justify-content: center; padding: 1rem; }
+.mailfb[hidden] { display: none; }
+.mailfb__box { position: relative; background: #fff; border-radius: var(--r-lg); width: min(620px, 100%);
+  max-height: 92vh; overflow: auto; padding: 1.6rem 1.6rem 1.4rem; box-shadow: 0 20px 60px rgba(0,0,0,.25); }
+.mailfb__x { position: absolute; top: .6rem; right: .8rem; background: none; border: 0; font-size: 1.6rem;
+  line-height: 1; color: var(--ink-3); cursor: pointer; padding: .2rem .4rem; }
+.mailfb__x:hover { color: var(--ink); }
+.mailfb__box h3 { font-size: 1.15rem; margin: 0 0 .4rem; padding-right: 2rem; }
+.mailfb__hint { margin: 0 0 1.1rem; font-size: .88rem; color: var(--ink-2); }
+.mailfb__row { display: grid; grid-template-columns: 70px 1fr auto; gap: .6rem; align-items: center;
+  padding: .55rem 0; border-top: 1px solid var(--line-soft); }
+.mailfb__row > span { font-size: .74rem; text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3); }
+.mailfb__row code { font-family: var(--font-body); font-size: .92rem; color: var(--ink); word-break: break-all; }
+.mailfb__row--body { align-items: start; }
+.mailfb__row pre { margin: 0; font-family: var(--font-body); font-size: .84rem; line-height: 1.55; color: var(--ink-2);
+  white-space: pre-wrap; background: var(--surface-1); border: 1px solid var(--line); border-radius: var(--r);
+  padding: .7rem .8rem; max-height: 180px; overflow: auto; }
+.mailfb__copy { background: #fff; border: 1px solid var(--line); border-radius: var(--r); padding: .35rem .7rem;
+  font-size: .78rem; font-weight: 600; color: var(--ink); cursor: pointer; white-space: nowrap; }
+.mailfb__copy:hover { border-color: var(--brand); color: var(--brand); }
+.mailfb__act { display: flex; gap: .6rem; flex-wrap: wrap; margin-top: 1.1rem; padding-top: 1rem; border-top: 1px solid var(--line); }
+@media (max-width: 560px) { .mailfb__row { grid-template-columns: 1fr; } .mailfb__row > span { margin-bottom: -.3rem; } }
+
 /* ---------- Hero side panel (stands in for the plant photo) ---------- */
 .hero__side { }
 .heropanel { background: #fff; border: 1px solid var(--line); border-radius: var(--r-lg); padding: 1.5rem 1.4rem; }
