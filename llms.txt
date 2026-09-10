@@ -79,6 +79,18 @@ before shipment.
 ## Other pages
 
 - FAQ (24 questions on grade choice, documents, samples, MOQ, trials): https://sensilchem.com/faq.html
+- How-to guides (10 trial procedures, one per track): https://sensilchem.com/how-to/
+  - How to run a matting silica trial in a waterborne wood coating: https://sensilchem.com/how-to/matting-silica-trial-waterborne-wood-coating.html
+  - How to load a liquid vitamin onto a silica carrier without losing flow: https://sensilchem.com/how-to/load-liquid-vitamin-onto-silica-carrier.html
+  - How to stop a seasoning powder caking with a silica flow aid: https://sensilchem.com/how-to/stop-seasoning-powder-caking-flow-aid.html
+  - How to evaluate a silica in a toothpaste structure trial: https://sensilchem.com/how-to/evaluate-silica-toothpaste-structure-trial.html
+  - How to test an inert silica carrier for WP and WG agrochemical formulations: https://sensilchem.com/how-to/test-inert-silica-carrier-wp-wg-agrochemical.html
+  - How to screen porous silica substrates for fluoride-removal functionalisation: https://sensilchem.com/how-to/screen-porous-silica-substrates-fluoride-removal.html
+  - How to convert a liquid defoamer into a free-flowing powder: https://sensilchem.com/how-to/convert-liquid-defoamer-into-free-flowing-powder.html
+  - How to run an antiblock trial on blown polyethylene film: https://sensilchem.com/how-to/antiblock-trial-blown-pe-film.html
+  - How to switch masterbatch feeding from powder to granular silica: https://sensilchem.com/how-to/switch-masterbatch-feeding-powder-to-granular-silica.html
+  - How to request and evaluate a silica sample set from Sensilchem: https://sensilchem.com/how-to/request-and-evaluate-silica-sample-set.html
+- News: https://sensilchem.com/news.html
 - Grade selector (application x situation -> starting grade): https://sensilchem.com/selector.html
 - Quality and documentation: https://sensilchem.com/quality.html
 - Contact and enquiry form: https://sensilchem.com/contact.html
