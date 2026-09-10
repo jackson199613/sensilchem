@@ -426,6 +426,11 @@ html, body { overflow-x: clip; max-width: 100%; }
 .contactcard a:hover { text-decoration: underline; }
 .contactcard__tel { display: block; font-size: .85rem; color: rgba(255,255,255,.6); margin-top: .2rem; }
 
+/* ---------- QC lab figure ---------- */
+.qcfig picture { display: block; aspect-ratio: 1900/814; border-radius: var(--r-lg); overflow: hidden; background: var(--surface-2); }
+.qcfig img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.qcfig figcaption { margin-top: .7rem; font-size: .84rem; color: var(--ink-3); }
+
 /* ---------- Real photography ---------- */
 .app__img picture, .app__img img { width: 100%; height: 100%; display: block; }
 .app__img img { object-fit: cover; transition: transform .4s; }
