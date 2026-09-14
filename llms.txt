@@ -90,6 +90,10 @@ before shipment.
   - How to run an antiblock trial on blown polyethylene film: https://sensilchem.com/how-to/antiblock-trial-blown-pe-film.html
   - How to switch masterbatch feeding from powder to granular silica: https://sensilchem.com/how-to/switch-masterbatch-feeding-powder-to-granular-silica.html
   - How to request and evaluate a silica sample set from Sensilchem: https://sensilchem.com/how-to/request-and-evaluate-silica-sample-set.html
+- Technical articles (long-form: benchmarking, surface treatment, troubleshooting): https://sensilchem.com/articles/
+  - Benchmarking a matting silica against ACEMATT® OK 390: what to actually test: https://sensilchem.com/articles/benchmarking-matting-silica-against-acematt-ok-390.html
+  - Treated vs untreated matting silica: how the surface changes the trial: https://sensilchem.com/articles/treated-vs-untreated-matting-silica.html
+  - Why a matt clear coat looks milky — five causes and how to tell them apart: https://sensilchem.com/articles/why-matt-clear-coat-looks-milky.html
 - News: https://sensilchem.com/news.html
 - Grade selector (application x situation -> starting grade): https://sensilchem.com/selector.html
 - Quality and documentation: https://sensilchem.com/quality.html
