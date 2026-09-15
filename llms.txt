@@ -102,6 +102,7 @@ before shipment.
 - News: https://sensilchem.com/news.html
 - Grade selector (application x situation -> starting grade): https://sensilchem.com/selector.html
 - Quality and documentation: https://sensilchem.com/quality.html
+- Packing, container loading and lead times: https://sensilchem.com/logistics.html
 - Contact and enquiry form: https://sensilchem.com/contact.html
 - Privacy notice: https://sensilchem.com/privacy.html
 
