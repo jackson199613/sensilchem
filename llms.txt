@@ -94,6 +94,10 @@ before shipment.
   - Benchmarking a matting silica against ACEMATT® OK 390: what to actually test: https://sensilchem.com/articles/benchmarking-matting-silica-against-acematt-ok-390.html
   - Treated vs untreated matting silica: how the surface changes the trial: https://sensilchem.com/articles/treated-vs-untreated-matting-silica.html
   - Why a matt clear coat looks milky — five causes and how to tell them apart: https://sensilchem.com/articles/why-matt-clear-coat-looks-milky.html
+  - Benchmarking a carrier silica against SIPERNAT® 22 in a vitamin premix: https://sensilchem.com/articles/benchmarking-carrier-silica-against-sipernat-22.html
+  - Benchmarking a matting silica against SYLOID® grades in solvent-based coatings: https://sensilchem.com/articles/benchmarking-matting-silica-against-syloid.html
+  - Benchmarking an antiblock silica against SYLOBLOC® 250 in blown PE film: https://sensilchem.com/articles/benchmarking-antiblock-silica-against-sylobloc.html
+  - Thickening silica vs abrasive silica in toothpaste: what each one does in the paste: https://sensilchem.com/articles/thickening-vs-abrasive-silica-in-toothpaste.html
 - News: https://sensilchem.com/news.html
 - Grade selector (application x situation -> starting grade): https://sensilchem.com/selector.html
 - Quality and documentation: https://sensilchem.com/quality.html
