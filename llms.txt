@@ -19,7 +19,7 @@ before shipment.
   (EACC, valid to 2029-01-11), International Halal (SSPY, valid to 2027-06-26)
 - Typical first trial order: 200 kg - 1 tonne
 - Website: https://sensilchem.com
-- Sales contact: nina@sensilchem.com
+- Sales contact: admin@sensilchem.com
 - ICP filing: 闽ICP备19019250号-1
 
 ## Nine application tracks
@@ -109,7 +109,7 @@ before shipment.
 
 Sensilchem does not publish specification tables. Technical data sheets, specification sheets, COA and
 SDS are issued per enquiry so that figures reflect the current supplier revision and are matched to the
-customer's application. Request them at nina@sensilchem.com.
+customer's application. Request them at admin@sensilchem.com.
 
 ## Scope notes
 
