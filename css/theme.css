@@ -496,6 +496,18 @@ a.card { text-decoration: none; color: inherit; }
 .asidelist { list-style: none; margin: 0 0 1rem; padding: 0; }
 .asidelist li { margin: .5rem 0; font-size: .88rem; line-height: 1.45; }
 
+/* ---------- Logistics page ---------- */
+table.idx--lg { min-width: 560px; }
+.lgh { font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); margin: 2rem 0 .9rem; }
+.lgdl { margin: 0; }
+.lgdl div { display: grid; grid-template-columns: 13rem 1fr; gap: 1rem; padding: .6rem 0; border-bottom: 1px solid var(--line-soft); }
+.lgdl div:last-child { border-bottom: 0; }
+.lgdl dt { font-size: .84rem; color: var(--ink-3); }
+.lgdl dd { margin: 0; font-size: .9rem; color: var(--ink); line-height: 1.6; }
+.card .lgdl div { grid-template-columns: 9rem 1fr; gap: .8rem; }
+.lgnote { font-size: .84rem; color: var(--ink-3); margin: 1.6rem 0 0; max-width: 74ch; line-height: 1.7; border-left: 3px solid var(--brass); padding-left: 1rem; }
+@media (max-width: 640px) { .lgdl div, .card .lgdl div { grid-template-columns: 1fr; gap: .1rem; } }
+
 /* ---------- Hero side panel (stands in for the plant photo) ---------- */
 .hero__side { }
 .heropanel { background: #fff; border: 1px solid var(--line); border-radius: var(--r-lg); padding: 1.5rem 1.4rem; }
