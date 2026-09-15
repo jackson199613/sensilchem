@@ -99,6 +99,9 @@ before shipment.
   - Benchmarking a matting silica against SYLOID® grades in solvent-based coatings: https://sensilchem.com/articles/benchmarking-matting-silica-against-syloid.html
   - Benchmarking an antiblock silica against SYLOBLOC® 250 in blown PE film: https://sensilchem.com/articles/benchmarking-antiblock-silica-against-sylobloc.html
   - Thickening silica vs abrasive silica in toothpaste: what each one does in the paste: https://sensilchem.com/articles/thickening-vs-abrasive-silica-in-toothpaste.html
+  - Why a matting agent settles hard in the can — and what to do about it: https://sensilchem.com/articles/why-matting-agent-settles-hard-in-the-can.html
+  - Precipitated vs fumed silica in coatings: which one for matting, which for rheology: https://sensilchem.com/articles/precipitated-vs-fumed-silica-for-coatings.html
+  - Why WG granules fail to disintegrate — carrier, binder or process: https://sensilchem.com/articles/why-wg-granules-fail-to-disintegrate.html
 - News: https://sensilchem.com/news.html
 - Grade selector (application x situation -> starting grade): https://sensilchem.com/selector.html
 - Quality and documentation: https://sensilchem.com/quality.html
