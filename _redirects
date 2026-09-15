@@ -6,6 +6,14 @@
 /silica           /products.html        301
 /silica.html      /products.html        301
 /articles.html    /articles/            301
+
+# Old CMS URL patterns still in Google's index (numeric-id pages)
+/product/*        /products.html        301
+/products/*       /products.html        301
+/news/*           /news.html            301
+/article/*        /articles/            301
+/html/*           /                     301
+/en/*             /                     301
 /about            /company/about.html   301
 /about.html       /company/about.html   301
 /products         /products.html        301
