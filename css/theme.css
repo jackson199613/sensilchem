@@ -608,3 +608,16 @@ figure picture { display: block; }
 .wmnote { font-size: .86rem; color: var(--ink-3); margin: 1.4rem 0 0; max-width: 62ch; line-height: 1.7; }
 @media (max-width: 900px) { .wmgrid { grid-template-columns: 1fr 1fr 1fr; } }
 @media (max-width: 560px) { .wmgrid { grid-template-columns: 1fr 1fr; } }
+
+/* ---------- Milestones timeline ---------- */
+.tl { list-style: none; margin: 0; padding: 0 0 0 1.2rem; border-left: 2px solid var(--line); }
+.tl__i { position: relative; display: grid; grid-template-columns: 5.5rem 1fr; gap: 1.6rem; padding: 0 0 1.9rem 1.6rem; }
+.tl__i:last-child { padding-bottom: 0; }
+.tl__i::before { content: ""; position: absolute; left: -1.55rem; top: .38rem; width: .72rem; height: .72rem; border-radius: 50%; background: var(--brand); border: 3px solid var(--surface); box-shadow: 0 0 0 2px var(--brand); }
+.tl__y { font-size: 1.15rem; font-weight: 700; color: var(--brass); letter-spacing: .01em; line-height: 1.4; }
+.tl__c h3 { font-size: 1rem; margin: 0 0 .3rem; }
+.tl__c p { margin: 0; font-size: .92rem; line-height: 1.7; color: var(--ink-2); max-width: 68ch; }
+@media (max-width: 640px) {
+  .tl__i { grid-template-columns: 1fr; gap: .25rem; padding-left: 1.2rem; }
+  .tl__y { font-size: 1rem; }
+}
