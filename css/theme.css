@@ -588,3 +588,23 @@ figure picture { display: block; }
 .tmc p { margin: 0; font-size: .88rem; line-height: 1.65; color: var(--ink-2); }
 @media (max-width: 980px) { .tmteam { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 560px) { .tmteam { grid-template-columns: 1fr; } }
+
+/* ---------- Export markets map ---------- */
+.wmfig { margin: 0 0 1.8rem; }
+.wm { display: block; width: 100%; height: auto; background: var(--surface-2); border: 1px solid var(--line); border-radius: var(--r-lg); }
+.wm__base { fill: #DCDCD6; stroke: #fff; stroke-width: .6; }
+.wm__hot { fill: var(--brand); stroke: #fff; stroke-width: .6; }
+.wm__dot { fill: var(--brand); stroke: #fff; stroke-width: 1.4; }
+.wm__home { fill: var(--brass); stroke: #fff; stroke-width: 2; }
+.wmfig figcaption { display: flex; flex-wrap: wrap; gap: 1.4rem; margin-top: .8rem; font-size: .82rem; color: var(--ink-3); }
+.wmkey { display: inline-flex; align-items: center; gap: .45rem; }
+.wmkey i { width: .72rem; height: .72rem; border-radius: 50%; display: inline-block; }
+.wmkey__hot { background: var(--brand); }
+.wmkey__home { background: var(--brass); }
+.wmgrid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1.2rem; }
+.wmr h3 { font-size: .74rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); margin: 0 0 .5rem; padding-bottom: .5rem; border-bottom: 2px solid var(--brand); }
+.wmr ul { list-style: none; margin: 0; padding: 0; }
+.wmr li { font-size: .92rem; line-height: 1.9; color: var(--ink-2); }
+.wmnote { font-size: .86rem; color: var(--ink-3); margin: 1.4rem 0 0; max-width: 62ch; line-height: 1.7; }
+@media (max-width: 900px) { .wmgrid { grid-template-columns: 1fr 1fr 1fr; } }
+@media (max-width: 560px) { .wmgrid { grid-template-columns: 1fr 1fr; } }
