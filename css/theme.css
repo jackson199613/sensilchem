@@ -1,11 +1,10 @@
 /* ==========================================================================
    Sensilchem — light industrial design system
-   Built on the pattern shared by Wacker / Grace / Cabot:
-   white base + 2–3 grey steps for module separation + brand colour under 5%.
+   White base + 2–3 grey steps for module separation + brand colour under 5%.
    ========================================================================== */
 
 :root {
-  /* --- Surfaces: three steps, exactly like Wacker's module-background tokens --- */
+  /* --- Surfaces: three steps --- */
   --white:      #ffffff;
   --surface-1:  #F7F7F5;   /* section alt */
   --surface-2:  #EDEDE9;   /* cards, wells */
@@ -28,7 +27,7 @@
   --brass-tint: #FBF3E2;
 
   /* --- Type --- */
-  --font-display: "Roboto Slab", Georgia, serif;   /* Grace-style serif headings */
+  --font-display: "Roboto Slab", Georgia, serif;  
   --font-body: "Inter", "Helvetica Neue", Arial, system-ui, sans-serif;
 
   /* --- Metrics --- */
@@ -148,7 +147,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); color: var(--ink); line-heigh
 @media (max-width: 980px) { .apps { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 620px) { .apps { grid-template-columns: 1fr; } }
 
-/* ---------- Product index table (Cabot pattern) ---------- */
+/* ---------- Product index table ---------- */
 .tablewrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--r-lg); background: #fff; }
 table.idx { width: 100%; border-collapse: collapse; font-size: .89rem; min-width: 760px; }
 table.idx th { background: var(--surface-1); text-align: left; padding: .8rem 1rem; font-weight: 600; color: var(--ink); border-bottom: 1px solid var(--line); white-space: nowrap; font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; }
@@ -160,7 +159,7 @@ table.idx .t { color: var(--ink-3); font-size: .84rem; }
 table.idx a { color: var(--brand); text-decoration: none; font-weight: 600; white-space: nowrap; }
 table.idx a:hover { text-decoration: underline; }
 
-/* ---------- Effects / functions row (Evonik axis) ---------- */
+/* ---------- Effects / functions row ---------- */
 .fx { display: grid; grid-template-columns: repeat(5, 1fr); gap: .8rem; }
 .fx a {
   display: flex; flex-direction: column; align-items: center; gap: .55rem; text-align: center;
@@ -194,7 +193,7 @@ table.idx a:hover { text-decoration: underline; }
 @media (max-width: 1000px) { .steps { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 560px) { .steps { grid-template-columns: 1fr; } }
 
-/* ---------- Quick selector (Grace's text-based product finder) ---------- */
+/* ---------- Quick selector ---------- */
 .pick { background: var(--brand-tint); border: 1px solid #F0DBD5; border-left: 3px solid var(--brand); border-radius: var(--r-lg); padding: 1.3rem 1.4rem; }
 .pick h3 { font-size: 1rem; margin-bottom: .8rem; }
 .pick dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: .55rem 1rem; align-items: baseline; }
